@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IrrlichtTuto" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/IrrlichtTuto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/IrrlichtTuto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Input.h" />
+		<Unit filename="include/Painter.h" />
+		<Unit filename="include/irrKlang/ik_ESoundEngineOptions.h" />
+		<Unit filename="include/irrKlang/ik_ESoundOutputDrivers.h" />
+		<Unit filename="include/irrKlang/ik_EStreamModes.h" />
+		<Unit filename="include/irrKlang/ik_IAudioRecorder.h" />
+		<Unit filename="include/irrKlang/ik_IAudioStream.h" />
+		<Unit filename="include/irrKlang/ik_IAudioStreamLoader.h" />
+		<Unit filename="include/irrKlang/ik_IFileFactory.h" />
+		<Unit filename="include/irrKlang/ik_IFileReader.h" />
+		<Unit filename="include/irrKlang/ik_IRefCounted.h" />
+		<Unit filename="include/irrKlang/ik_ISound.h" />
+		<Unit filename="include/irrKlang/ik_ISoundDeviceList.h" />
+		<Unit filename="include/irrKlang/ik_ISoundEffectControl.h" />
+		<Unit filename="include/irrKlang/ik_ISoundEngine.h" />
+		<Unit filename="include/irrKlang/ik_ISoundMixedOutputReceiver.h" />
+		<Unit filename="include/irrKlang/ik_ISoundSource.h" />
+		<Unit filename="include/irrKlang/ik_ISoundStopEventReceiver.h" />
+		<Unit filename="include/irrKlang/ik_IVirtualRefCounted.h" />
+		<Unit filename="include/irrKlang/ik_SAudioStreamFormat.h" />
+		<Unit filename="include/irrKlang/ik_irrKlangTypes.h" />
+		<Unit filename="include/irrKlang/ik_vec3d.h" />
+		<Unit filename="include/irrKlang/irrKlang.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Input.cpp" />
+		<Unit filename="src/Painter.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1334968858 source:/home/userr/ProyectosActuales/TutoIrrlicht/morghan-PuzzleGame-6395232/main.cpp
+	<iostream>
+	"Painter.h"
+	"Input.h"
+
+1334968739 source:/home/userr/ProyectosActuales/TutoIrrlicht/morghan-PuzzleGame-6395232/src/Input.cpp
+	"../include/Input.h"
+
+1334968712 /home/userr/ProyectosActuales/TutoIrrlicht/morghan-PuzzleGame-6395232/include/Input.h
+	<iostream>
+	<fstream>
+	<vector>
+	<stdarg.h>
+	<irrlicht.h>
+	"../TinyXml/tinyxml.h"
+
+1334968771 source:/home/userr/ProyectosActuales/TutoIrrlicht/morghan-PuzzleGame-6395232/src/Painter.cpp
+	"../include/Painter.h"
+
+1334968760 /home/userr/ProyectosActuales/TutoIrrlicht/morghan-PuzzleGame-6395232/include/Painter.h
+	<stdlib.h>
+	<irrlicht.h>
+	"Input.h"
+
