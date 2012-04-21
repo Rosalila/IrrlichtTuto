@@ -8,7 +8,6 @@
 using namespace std;
 
 #include <irrlicht.h>
-#include "../TinyXml/tinyxml.h"
 
 using namespace irr;
 using namespace core;
