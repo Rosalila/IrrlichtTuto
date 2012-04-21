@@ -2,7 +2,7 @@
 #define PAINTER_H
 
 #include <stdlib.h>	// for itoa() call
-#include <irrlicht.h>
+#include "Irrlicht/irrlicht.h"
 using namespace irr;
 #include "Input.h"
 

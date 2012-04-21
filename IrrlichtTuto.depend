@@ -46,7 +46,34 @@
 	<irrlicht.h>
 	"Input.h"
 
-1335025482 source:/home/userr/ProyectosActuales/IrrlichtTuto/main.cpp
+1335026873 source:/home/userr/ProyectosActuales/IrrlichtTuto/main.cpp
+	"include/Game.h"
+
+1334982581 source:/home/userr/ProyectosActuales/IrrlichtTuto/src/Input.cpp
+	"../include/Input.h"
+
+1335029688 /home/userr/ProyectosActuales/IrrlichtTuto/include/Input.h
+	<iostream>
+	<fstream>
+	<vector>
+	<stdarg.h>
+	"Irrlicht/irrlicht.h"
+
+1334968771 source:/home/userr/ProyectosActuales/IrrlichtTuto/src/Painter.cpp
+	"../include/Painter.h"
+
+1335029703 /home/userr/ProyectosActuales/IrrlichtTuto/include/Painter.h
+	<stdlib.h>
+	"Irrlicht/irrlicht.h"
+	"Input.h"
+
+1335027491 /home/userr/ProyectosActuales/IrrlichtTuto/include/Game.h
+	"Entity/Entity.h"
+
+1335027501 source:/home/userr/ProyectosActuales/IrrlichtTuto/src/Game.cpp
+	"../include/Game.h"
+
+1335027249 /home/userr/ProyectosActuales/IrrlichtTuto/include/Entity/Entity.h
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
@@ -54,21 +81,966 @@
 	"Painter.h"
 	"Input.h"
 
-1334982581 source:/home/userr/ProyectosActuales/IrrlichtTuto/src/Input.cpp
-	"../include/Input.h"
+1335027168 source:/home/userr/ProyectosActuales/IrrlichtTuto/src/Entity/Entity.cpp
 
-1334982575 /home/userr/ProyectosActuales/IrrlichtTuto/include/Input.h
-	<iostream>
-	<fstream>
-	<vector>
-	<stdarg.h>
-	<irrlicht/irrlicht.h>
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
 
-1334968771 source:/home/userr/ProyectosActuales/IrrlichtTuto/src/Painter.cpp
-	"../include/Painter.h"
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IrrCompileConfig.h
+	<stdio.h>
+	<xtl.h>
 
-1334968760 /home/userr/ProyectosActuales/IrrlichtTuto/include/Painter.h
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrMath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
 	<stdlib.h>
-	<irrlicht.h>
-	"Input.h"
+	<limits.h>
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrTypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/vector3d.h
+	"irrMath.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/CDynamicMeshBuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IDynamicMeshBuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMeshBuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IReferenceCounted.h
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SMaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+	<windows.h>
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/position2d.h
+	"vector2d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrString.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrAllocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrArray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/heapsort.h
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EMaterialTypes.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EMaterialFlags.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/S3DVertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SVertexIndex.h
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EHardwareBufferFlags.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EPrimitiveTypes.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IVertexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IIndexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/CVertexBuffer.h
+	"IVertexBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/CIndexBuffer.h
+	"IIndexBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/coreutil.h
+	"irrString.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/path.h
+	"irrString.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ECullingTypes.h
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EDebugSceneTypes.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EDriverFeatures.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EDriverTypes.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EGUIAlignment.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EGUIElementTypes.h
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EMessageBoxFlags.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ESceneNodeAnimatorTypes.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ETerrainElements.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/fast_atof.h
+	"irrMath.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IAnimatedMeshMD3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IQ3Shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IFileSystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrXML.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IFileArchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IReadFile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IFileList.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IVideoDriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ITexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IImage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SExposedVideoData.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IAnimatedMeshSceneNode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneNode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneNodeAnimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IEventReceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ILogger.h
+	"IReferenceCounted.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/Keycodes.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ITriangleSelector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrList.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IAttributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EAttributes.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IBillboardTextSceneNode.h
+	"IBillboardSceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ICursorControl.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGeometryCreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGPUProgrammingServices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EShaderTypes.h
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIButton.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIElement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUICheckBox.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIComboBox.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIEnvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUISkin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIFont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIImage.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUISpinBox.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUISpriteBank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUITabControl.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUITable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIToolbar.h
+	"IGUIElement.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUITreeView.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IGUIImageList.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IImageLoader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IImageWriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SLight.h
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMaterialRenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMaterialRendererServices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMeshCache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMeshLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMeshManipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SVertexManipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IOSOperator.h
+	"IReferenceCounted.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleSystemSceneNode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SParticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IrrlichtDevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/EDeviceTypes.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ITimer.h
+	"IReferenceCounted.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/irrMap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneCollisionManager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SceneParameters.h
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISkinnedMesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimator.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ITerrainSceneNode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ITextSceneNode.h
+	"ISceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IVolumeLightSceneNode.h
+	"ISceneNode.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IWriteFile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/IXMLWriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/ILightManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SAnimatedMesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SIrrCreationParameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SKeyMap.h
+	"Keycodes.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SMesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SSharedMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1314041530 /home/userr/ProyectosActuales/IrrlichtTuto/include/Irrlicht/SViewFrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
 

@@ -7,7 +7,7 @@
 #include <stdarg.h>
 using namespace std;
 
-#include <irrlicht/irrlicht.h>
+#include "Irrlicht/irrlicht.h"
 
 using namespace irr;
 using namespace core;
