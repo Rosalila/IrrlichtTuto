@@ -23,3 +23,52 @@
 	<irrlicht.h>
 	"Input.h"
 
+1334975600 source:/home/userr/ProyectosActuales/TutoIrrlicht/IrrlichtTuto/main.cpp
+	<iostream>
+	"Painter.h"
+	"Input.h"
+
+1334968739 source:/home/userr/ProyectosActuales/TutoIrrlicht/IrrlichtTuto/src/Input.cpp
+	"../include/Input.h"
+
+1334973694 /home/userr/ProyectosActuales/TutoIrrlicht/IrrlichtTuto/include/Input.h
+	<iostream>
+	<fstream>
+	<vector>
+	<stdarg.h>
+	<irrlicht.h>
+
+1334968771 source:/home/userr/ProyectosActuales/TutoIrrlicht/IrrlichtTuto/src/Painter.cpp
+	"../include/Painter.h"
+
+1334968760 /home/userr/ProyectosActuales/TutoIrrlicht/IrrlichtTuto/include/Painter.h
+	<stdlib.h>
+	<irrlicht.h>
+	"Input.h"
+
+1334983707 source:/home/userr/ProyectosActuales/IrrlichtTuto/main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Painter.h"
+	"Input.h"
+
+1334982581 source:/home/userr/ProyectosActuales/IrrlichtTuto/src/Input.cpp
+	"../include/Input.h"
+
+1334982575 /home/userr/ProyectosActuales/IrrlichtTuto/include/Input.h
+	<iostream>
+	<fstream>
+	<vector>
+	<stdarg.h>
+	<irrlicht/irrlicht.h>
+
+1334968771 source:/home/userr/ProyectosActuales/IrrlichtTuto/src/Painter.cpp
+	"../include/Painter.h"
+
+1334968760 /home/userr/ProyectosActuales/IrrlichtTuto/include/Painter.h
+	<stdlib.h>
+	<irrlicht.h>
+	"Input.h"
+
