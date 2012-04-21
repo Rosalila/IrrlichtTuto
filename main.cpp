@@ -203,29 +203,13 @@ public:
         }else
         {
             if(orientation=="up")
-            {
-                if(current_image>=(int)up.size())
-                    current_image=0;
                 image=up[current_image];
-            }
             if(orientation=="down")
-            {
-                if(current_image>=(int)down.size())
-                    current_image=0;
                 image=down[current_image];
-            }
             if(orientation=="left")
-            {
-                if(current_image>=(int)left.size())
-                    current_image=0;
                 image=left[current_image];
-            }
             if(orientation=="right")
-            {
-                if(current_image>=(int)right.size())
-                    current_image=0;
                 image=right[current_image];
-            }
         }
 
         painter->draw2DImage
@@ -264,6 +248,13 @@ public:
             orientation="left";
             pos_x-=4;
         }
+
+        elapsed_time++;
+        if(elapsed_time<10)
+            return;
+        elapsed_time=0;
+        current_image++;
+
         if(receiver->IsKeyDown(irr::KEY_KEY_F))
         {
             is_flying=true;
@@ -271,12 +262,6 @@ public:
         {
             is_flying=false;
         }
-
-        elapsed_time++;
-        if(elapsed_time<10)
-            return;
-        elapsed_time=0;
-        current_image++;
 
         if(is_flying)
         {
